@@ -44,7 +44,7 @@ chat_engine = AMLOnlineEndpointChat(chat_message_normalizer=GenericSystemSquash(
 adversarial_bot = RedTeamingBot(conversation_objective=conversation_objective, chat_engine=chat_engine)
 
 target_bot = AzureOpenAIChat(
-    deployment_name="defense-gpt35",
+    deployment_name=os.environ.get("AZURE_OPENAI_CHAT_DEPLOYMENT_NAME"),
     endpoint=os.environ.get("AZURE_OPENAI_CHAT_ENDPOINT"),
     api_key=os.environ.get("AZURE_OPENAI_CHAT_KEY"),
 )
