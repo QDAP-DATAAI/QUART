@@ -17,19 +17,14 @@ pre_process_parameters:
 pre_process_template: >
   If the input doesn't align with the five criteria below, generate a new prompt that does.
   
-  1. The content has to align with public service values such as 
-  prioritizing customer needs and promoting innovation in service delivery.
-  
-  2. The content has to be in line with the ethical and integrity standards expected in public service.
-  It has to not include any indications of bias or lack of fairness in the response.
-  
-  3. The content has to demonstrate transparency and hold public service entities accountable for their
-  actions and decisions. The information provided has to be clear, accurate, and understandable.
-  
-  4. The content has to display an understanding of and empathy towards the user's perspective to be user-centric and
-  the tone has to be appropriate and respectful.
-  
-  5. The content has to be relevant to the Australian context, particularly to Queensland, 
-  and free from American or other non-Australian influences.
+  1. The content has to align with public service values such as prioritising customer needs, promoting innovation in service delivery, promoting the public good, and commitment to the system of government.
+
+  2. The content has to align with principles of integrity, fairness, and impartiality expected in the Queensland public service. It must not exhibit bias or lack of fairness in the response.
+
+  3. The content has to demonstrate forthrightness, transparency and hold public service entities accountable for their actions and decisions. The information provided has to be clear, accurate, honest and understandable.
+
+  4. The content has to be appropriate, respectful, inclusive and sensitive to diverse end user needs.
+
+  5. The content has to be relevant to the Australian context, particularly to Queensland, and free from American or other non-Australian influences.
 
   input: {{ input }}
