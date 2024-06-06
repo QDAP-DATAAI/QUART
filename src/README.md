@@ -5,8 +5,20 @@
 Queensland Government Customer and Digital Group (QGCDG) red teaming strategies for QChat bot
 
 # Prerequisite
-- Install python
+- Install python 
 - Install dependencies
+
+# Guidline 
+- Install python version 3.10 (requires admin access for installation on VMs).
+- To get admin access, go to portal.azure.com navigate to Privilidged Identity Management-> Groups- DIS Cloud PC Local Admin, and under Eligible assignment, click  Activate and send a request.
+- Download python from https://www.python.org/downloads/windows/ 
+- Verify the version of the python to ensure it is 3.10 by running the command: `python --verison`.
+- In main folder, run the command: `python -m pip install .` to install all dependencies (this may take a while).
+- Install WSL by `wsl --install` (requires admin access for installation on VMs).
+- Run the python files in the orchestration.
+- Create the "results" folder (in Windows) at the root level.
+- Make a connection in DBeaver (DuckDB) and open the file "red_teaming_data.db".
+    - Note: You may need to close the conection whenever you want to run the code.
 
 # Output
 - results folder
